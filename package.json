@@ -1,0 +1,27 @@
+{
+  "name": "testdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Tip.js",
+  "scripts": {
+   "start": "node Tip.js",
+   "start1": "node Tip1.js",
+   "dev": "npm run start npm run start1",
+   "test": "echo \"sucees"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaissaDaas/testdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaissaDaas/testdev/issues"
+  },
+  "homepage": "https://github.com/MaissaDaas/testdev#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "supertest": "^6.3.4"
+  }
+}
